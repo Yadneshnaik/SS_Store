@@ -1,0 +1,239 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section {
+    height: 60vh;
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.products-section .card {
+    margin: 20px 0;
+}
+
+/* Contact Section */
+.contact-section {
+    padding: 50px 0;
+    background-color: #fff;
+}
+
+.contact-section h2 {
+    text-align: center;
+    color: #333;
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+
+/* Contact Form Styles */
+form {
+    margin: 0 auto;
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+textarea.form-control {
+    resize: none;
+}
+
+/* Submit Button */
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: block;
+    width: 100%;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Slide Show */
+.carousel-inner img {
+    height: 500px;
+}
+
+.blurry-text {
+    font-size: 30px;
+    color: #000;
+    filter: blur(3px);
+}
+
+.rounded-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.speech-bubble {
+    position: relative;
+    background: #007bff;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.speech-bubble:after {
+    content: '';
+    position: absolute;
+    border-style: solid;
+    border-width: 15px 15px 0;
+    border-color: #007bff transparent;
+    display: block;
+    width: 0;
+    z-index: 1;
+    bottom: -15px;
+    left: 10px;
+}
+
+.image-container {
+    position: relative;
+}
+
+.fade-img {
+    position: absolute;
+    transition: opacity 1s ease-in-out;
+}
+
+.fade-img:hover {
+    opacity: 0;
+}
+
+.services-section {
+    background-color: #f9f9f9;
+    padding: 60px 0;
+}
+
+.card {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card img {
+    margin-bottom: 15px;
+}
+
+.card-title {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #333;
+}
+
+.navbar .form-inline {
+    width: 100%;
+    justify-content: center;
+}
+.form-inline input {
+    width: 250px;
+    margin-right: 10px;
+}
+
+/* Scroll to Top Button */
+#scrollTopBtn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 15px;
+    font-size: 18px;
+    cursor: pointer;
+    display: none;
+    z-index: 1000;
+}
+
+#scrollTopBtn:hover {
+    background-color: #0056b3;
+}
+
+.custom-button {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #007bff;
+    border-radius: 25px;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #0056b3;
+}
+
+.ribbon {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+}
+
+.ribbon span {
+    position: absolute;
+    display: block;
+    width: 200px;
+    padding: 10px 0;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    transform: rotate(45deg);
+    top: 20px;
+    right: -50px;
+}
+
+.ribbon span:hover {
+    background-color: #0056b3;
+}
